@@ -7,9 +7,11 @@ trigger:
 - '*'
 
 pool:
-  vmImage: 'windows-latest'
+   vmImage: 'windows-latest'
   demands:
-  -npm
+  - npm
+
+
 variables:
   buildConfiguration: 'Release'
 
